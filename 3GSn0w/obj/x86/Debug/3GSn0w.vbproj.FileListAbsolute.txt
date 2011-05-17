@@ -1,0 +1,14 @@
+c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x86\Debug\_3GSn0w.MDIMain.resources
+c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x86\Debug\_3GSn0w.Resources.resources
+c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\bin\Debug\3GSn0w.exe
+c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\bin\Debug\3GSn0w.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\bin\Debug\3GSn0w.xml
+c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x86\Debug\3GSn0w.exe
+c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x86\Debug\3GSn0w.xml
+c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x86\Debug\3GSn0w.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x86\Debug\Interop.SHDocVw.dll
+c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x86\Debug\3GSn0w.vbproj.ResolveComReference.cache
+c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x86\Debug\_3GSn0w.FRMSplash.resources

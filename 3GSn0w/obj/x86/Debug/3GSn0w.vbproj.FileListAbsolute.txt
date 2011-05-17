@@ -12,3 +12,21 @@ c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x
 c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x86\Debug\Interop.SHDocVw.dll
 c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x86\Debug\3GSn0w.vbproj.ResolveComReference.cache
 c:\users\administrator\documents\visual studio 2010\Projects\3GSn0w\3GSn0w\obj\x86\Debug\_3GSn0w.FRMSplash.resources
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\obj\x86\Debug\Interop.SHDocVw.dll
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\obj\x86\Debug\3GSn0w.vbproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\obj\x86\Debug\3GSn0w.exe
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\obj\x86\Debug\3GSn0w.xml
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\obj\x86\Debug\3GSn0w.pdb
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\bin\Debug\3GSn0w.exe
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\bin\Debug\3GSn0w.pdb
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\bin\Debug\3GSn0w.xml
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\obj\x86\Debug\_3GSn0w.FRMSplash.resources
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\obj\x86\Debug\_3GSn0w.MDIMain.resources
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\obj\x86\Debug\_3GSn0w.Resources.resources
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\obj\x86\Debug\_3GSn0w.frmBackground.resources
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\bin\Debug\SpinningProgress.dll
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\bin\Debug\SpinningProgress.pdb
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\bin\Debug\SpinningProgress.xml

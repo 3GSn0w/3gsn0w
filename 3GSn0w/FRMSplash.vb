@@ -8,4 +8,8 @@
 
     End Sub
 
+    Private Sub TwitterFollow_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TwitterFollow.Click
+        Diagnostics.Process.Start("http://twitter.com/#!/3GSn0w")
+    End Sub
+
 End Class

@@ -30,3 +30,6 @@ C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\obj\x86\Debug\_3GSn0w.frmBackground
 C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\bin\Debug\SpinningProgress.dll
 C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\bin\Debug\SpinningProgress.pdb
 C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\bin\Debug\SpinningProgress.xml
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\obj\x86\Debug\_3GSn0w.FormBusy.resources
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\bin\Debug\LibUsbDotNet.dll
+C:\Users\Administrator\Desktop\3gsn0w\3GSn0w\bin\Debug\Dlls\LibUsbDotNet.dll

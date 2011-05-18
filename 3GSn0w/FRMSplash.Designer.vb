@@ -22,11 +22,14 @@ Partial Class FRMSplash
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FRMSplash))
         Me.Label3GSn0w = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ButtonClose = New System.Windows.Forms.Button()
         Me.ShapeContainer1 = New Microsoft.VisualBasic.PowerPacks.ShapeContainer()
         Me.RectangleShape1 = New Microsoft.VisualBasic.PowerPacks.RectangleShape()
+        Me.TwitterFollow = New System.Windows.Forms.PictureBox()
+        CType(Me.TwitterFollow, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label3GSn0w
@@ -88,6 +91,15 @@ Partial Class FRMSplash
         Me.RectangleShape1.Name = "RectangleShape1"
         Me.RectangleShape1.Size = New System.Drawing.Size(489, 272)
         '
+        'TwitterFollow
+        '
+        Me.TwitterFollow.Image = CType(resources.GetObject("TwitterFollow.Image"), System.Drawing.Image)
+        Me.TwitterFollow.Location = New System.Drawing.Point(312, 182)
+        Me.TwitterFollow.Name = "TwitterFollow"
+        Me.TwitterFollow.Size = New System.Drawing.Size(147, 69)
+        Me.TwitterFollow.TabIndex = 4
+        Me.TwitterFollow.TabStop = False
+        '
         'FRMSplash
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -95,6 +107,7 @@ Partial Class FRMSplash
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(490, 273)
         Me.ControlBox = False
+        Me.Controls.Add(Me.TwitterFollow)
         Me.Controls.Add(Me.ButtonClose)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label3GSn0w)
@@ -104,6 +117,7 @@ Partial Class FRMSplash
         Me.Name = "FRMSplash"
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        CType(Me.TwitterFollow, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -112,4 +126,5 @@ Partial Class FRMSplash
     Friend WithEvents ButtonClose As System.Windows.Forms.Button
     Friend WithEvents ShapeContainer1 As Microsoft.VisualBasic.PowerPacks.ShapeContainer
     Friend WithEvents RectangleShape1 As Microsoft.VisualBasic.PowerPacks.RectangleShape
+    Friend WithEvents TwitterFollow As System.Windows.Forms.PictureBox
 End Class

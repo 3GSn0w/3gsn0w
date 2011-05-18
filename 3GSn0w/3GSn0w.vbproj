@@ -52,6 +52,9 @@
     <ApplicationIcon>3GBlue.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LibUsbDotNet">
+      <HintPath>..\..\..\..\..\Program Files\LibUsbDotNet\LibUsbDotNet.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="SpinningProgress">
       <HintPath>..\..\..\..\..\DotNetRefs\SpinningProgress.dll</HintPath>
@@ -79,6 +82,16 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3GSn0wLib\iDeviceNotify.vb" />
+    <Compile Include="iPhone3G\ConnectEventArgs.vb" />
+    <Compile Include="iPhone3G\ConnectEventHandler.vb" />
+    <Compile Include="iPhone3G\DeviceNotificationEventArgs.vb" />
+    <Compile Include="FormBusy.Designer.vb">
+      <DependentUpon>FormBusy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormBusy.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmBackground.Designer.vb">
       <DependentUpon>frmBackground.vb</DependentUpon>
     </Compile>
@@ -91,13 +104,17 @@
     <Compile Include="FRMSplash.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="iPhone3G\iPhone.vb" />
+    <Compile Include="iPhone3G\iPhoneFile.vb" />
     <Compile Include="MDIMain.Designer.vb">
       <DependentUpon>MDIMain.vb</DependentUpon>
     </Compile>
     <Compile Include="MDIMain.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="iPhone3G\MobileDevice.vb" />
     <Compile Include="modData.vb" />
+    <Compile Include="modUtils.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -115,6 +132,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormBusy.resx">
+      <DependentUpon>FormBusy.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmBackground.resx">
       <DependentUpon>frmBackground.vb</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +164,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="3GBlue.ico" />
+    <Content Include="Dlls\LibUsbDotNet.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="SHDocVw">

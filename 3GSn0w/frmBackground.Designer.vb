@@ -23,23 +23,12 @@ Partial Class frmBackground
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmBackground))
-        Me.TwitterFollow = New System.Windows.Forms.PictureBox()
         Me.PanelFirmware = New System.Windows.Forms.Panel()
         Me.lblFirmwareDrop = New System.Windows.Forms.Label()
         Me.ButtonBrowse = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        CType(Me.TwitterFollow, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelFirmware.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'TwitterFollow
-        '
-        Me.TwitterFollow.Image = CType(resources.GetObject("TwitterFollow.Image"), System.Drawing.Image)
-        Me.TwitterFollow.Location = New System.Drawing.Point(627, 509)
-        Me.TwitterFollow.Name = "TwitterFollow"
-        Me.TwitterFollow.Size = New System.Drawing.Size(147, 69)
-        Me.TwitterFollow.TabIndex = 0
-        Me.TwitterFollow.TabStop = False
         '
         'PanelFirmware
         '
@@ -101,17 +90,15 @@ Partial Class frmBackground
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(786, 590)
         Me.Controls.Add(Me.PanelFirmware)
-        Me.Controls.Add(Me.TwitterFollow)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmBackground"
+        Me.ShowInTaskbar = False
         Me.Text = "frmBackground"
-        CType(Me.TwitterFollow, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelFirmware.ResumeLayout(False)
         Me.PanelFirmware.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents TwitterFollow As System.Windows.Forms.PictureBox
     Friend WithEvents PanelFirmware As System.Windows.Forms.Panel
     Friend WithEvents ButtonBrowse As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label

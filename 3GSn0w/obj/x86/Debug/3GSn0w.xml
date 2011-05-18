@@ -6,7 +6,295 @@
 </name>
 </assembly>
 <members>
-<member name="P:_3GSn0w.My.Resources.Resources.ResourceManager">
+<member name="P:_3GSn0w.iPhone3G.ConnectEventArgs.Device">
+	<summary>
+ Returns the information for the device that was connected or disconnected.
+ </summary>
+</member><member name="P:_3GSn0w.iPhone3G.ConnectEventArgs.Message">
+	<summary>
+ Returns the type of event.
+ </summary>
+</member><member name="T:_3GSn0w.iPhone3G.ConnectEventArgs">
+	<summary>
+ Provides data for the <see>Connected</see> and <see>Disconnected</see> events.
+ </summary>
+</member><member name="T:_3GSn0w.iPhone3G.DeviceNotificationEventArgs">
+	<summary>
+ Provides data for the <see>DfuConnect</see>, <see>DfuDisconnect</see>, <see>RecoveryModeEnter</see> and <see>RecoveryModeLeave</see> events.
+ </summary>
+</member><member name="P:_3GSn0w.iPhone3G.iPhoneFile.CanRead">
+	<summary>
+ gets a value indicating whether the current stream supports reading.
+ </summary>
+</member><member name="P:_3GSn0w.iPhone3G.iPhoneFile.CanSeek">
+	<summary>
+ Gets a value indicating whether the current stream supports seeking.
+ </summary>
+</member><member name="P:_3GSn0w.iPhone3G.iPhoneFile.CanTimeout">
+	<summary>
+ Gets a value that determines whether the current stream can time out. 
+ </summary>
+</member><member name="P:_3GSn0w.iPhone3G.iPhoneFile.CanWrite">
+	<summary>
+ Gets a value indicating whether the current stream supports writing
+ </summary>
+</member><member name="P:_3GSn0w.iPhone3G.iPhoneFile.Length">
+	<summary>
+ Gets the length in bytes of the stream . 
+ </summary>
+</member><member name="P:_3GSn0w.iPhone3G.iPhoneFile.Position">
+	<summary>
+ Gets or sets the position within the current stream
+ </summary>
+</member><member name="M:_3GSn0w.iPhone3G.iPhoneFile.SetLength(System.Int64)">
+	<summary>
+ Sets the length of this stream to the given value. 
+ </summary>
+	<param name="value">The new length of the stream.</param>
+</member><member name="M:_3GSn0w.iPhone3G.iPhoneFile.Dispose(System.Boolean)">
+	<summary>
+ Releases the unmanaged resources used by iPhoneFile
+ </summary>
+	<param name="disposing">true to release both managed and unmanaged resources; false to release only unmanaged resources.</param>
+</member><member name="M:_3GSn0w.iPhone3G.iPhoneFile.Read(System.Byte[],System.Int32,System.Int32)">
+	<summary>
+ Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read
+ </summary>
+	<param name="buffer__1">An array of bytes. When this method returns, the buffer contains the specified byte array with the values between offset and (offset + count - 1) replaced by the bytes read from the current source. </param>
+	<param name="offset">The zero-based byte offset in buffer at which to begin storing the data read from the current stream.</param>
+	<param name="count">The maximum number of bytes to be read from the current stream.</param>
+	<returns>The total number of bytes read into the buffer. This can be less than the number of bytes requested if that many bytes are not currently available, or zero (0) if the end of the stream has been reached.</returns>
+</member><member name="M:_3GSn0w.iPhone3G.iPhoneFile.Write(System.Byte[],System.Int32,System.Int32)">
+	<summary>
+ Writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written. 
+ </summary>
+	<param name="buffer__1">An array of bytes. This method copies count bytes from buffer to the current stream.</param>
+	<param name="offset">The zero-based byte offset in buffer at which to begin copying bytes to the current stream.</param>
+	<param name="count">The number of bytes to be written to the current stream.</param>
+</member><member name="M:_3GSn0w.iPhone3G.iPhoneFile.Seek(System.Int64,System.IO.SeekOrigin)">
+	<summary>
+ Sets the position within the current stream
+ </summary>
+	<param name="offset">A byte offset relative to the <c>origin</c> parameter</param>
+	<param name="origin">A value of type <see cref="T:System.IO.SeekOrigin"/> indicating the reference point used to obtain the new position</param>
+	<returns>The new position within the stream</returns>
+</member><member name="M:_3GSn0w.iPhone3G.iPhoneFile.Flush">
+	<summary>
+ Clears all buffers for this stream and causes any buffered data to be written to the underlying device. 
+ </summary>
+</member><member name="M:_3GSn0w.iPhone3G.iPhoneFile.Open(_3GSn0w.iPhone3G.iPhone,System.String,System.IO.FileAccess)">
+	<summary>
+ Opens an iPhoneFile stream on the specified path
+ </summary>
+	<param name="phone">A valid iPhone object</param>
+	<param name="path">The file to open</param>
+	<param name="openmode__1">A <see cref="T:System.IO.FileAccess"/> value that specifies the operations that can be performed on the file</param>
+	<returns></returns>
+</member><member name="M:_3GSn0w.iPhone3G.iPhoneFile.OpenRead(_3GSn0w.iPhone3G.iPhone,System.String)">
+	<summary>
+ Opens a file for reading
+ </summary>
+	<param name="phone">A valid iPhone object</param>
+	<param name="path">The file to be opened for reading</param>
+	<returns>An unshared <c>iPhoneFile</c> object on the specified path with Write access. </returns>
+</member><member name="M:_3GSn0w.iPhone3G.iPhoneFile.OpenWrite(_3GSn0w.iPhone3G.iPhone,System.String)">
+	<summary>
+ Opens a file for writing
+ </summary>
+	<param name="phone">A valid iPhone object</param>
+	<param name="path">The file to be opened for writing</param>
+	<returns>An unshared <c>iPhoneFile</c> object on the specified path with Write access. </returns>
+</member><member name="T:_3GSn0w.iPhone3G.iPhoneFile">
+	<summary>
+ Exposes a stream to a file on an iPhone, supporting both synchronous and asynchronous read and write operations
+ </summary>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.#ctor">
+	<summary>
+ Creates a new iPhone object. If an iPhone is connected to the computer, a connection will automatically be opened.
+ </summary>
+</member><member name="P:_3GSn0w.iPhone3G.iPhone.ActivationState">
+	<summary>
+ Gets the current activation state of the phone
+ </summary>
+</member><member name="P:_3GSn0w.iPhone3G.iPhone.IsConnected">
+	<summary>
+ Returns true if an iPhone is connected to the computer
+ </summary>
+</member><member name="P:_3GSn0w.iPhone3G.iPhone.Device">
+	<summary>
+ Returns the Device information about the connected iPhone
+ </summary>
+</member><member name="P:_3GSn0w.iPhone3G.iPhone.AFCHandle">
+	<summary>
+ Returns the handle to the iPhone com.apple.afc service
+ </summary>
+</member><member name="P:_3GSn0w.iPhone3G.iPhone.CurrentDirectory">
+	<summary>
+ Gets/Sets the current working directory, used by all file and directory methods
+ </summary>
+</member><member name="E:_3GSn0w.iPhone3G.iPhone.Connect">
+	<summary>
+ The <c>Connect</c> event is triggered when a iPhone is connected to the computer
+ </summary>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.OnConnect(_3GSn0w.iPhone3G.ConnectEventArgs)">
+	<summary>
+ Raises the <see>Connect</see> event.
+ </summary>
+	<param name="args">A <see cref="T:_3GSn0w.iPhone3G.ConnectEventArgs"/> that contains the event data.</param>
+</member><member name="E:_3GSn0w.iPhone3G.iPhone.Disconnect">
+	<summary>
+ The <c>Disconnect</c> event is triggered when the iPhone is disconnected from the computer
+ </summary>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.OnDisconnect(_3GSn0w.iPhone3G.ConnectEventArgs)">
+	<summary>
+ Raises the <see>Disconnect</see> event.
+ </summary>
+	<param name="args">A <see cref="T:_3GSn0w.iPhone3G.ConnectEventArgs"/> that contains the event data.</param>
+</member><member name="E:_3GSn0w.iPhone3G.iPhone.DfuConnect">
+	<summary>
+ Write Me
+ </summary>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.OnDfuConnect(_3GSn0w.iPhone3G.DeviceNotificationEventArgs)">
+	<summary>
+ Raises the <see>DfuConnect</see> event.
+ </summary>
+	<param name="args">A <see cref="T:_3GSn0w.iPhone3G.DeviceNotificationEventArgs"/> that contains the event data.</param>
+</member><member name="E:_3GSn0w.iPhone3G.iPhone.DfuDisconnect">
+	<summary>
+ Write Me
+ </summary>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.OnDfuDisconnect(_3GSn0w.iPhone3G.DeviceNotificationEventArgs)">
+	<summary>
+ Raises the <see>DfiDisconnect</see> event.
+ </summary>
+	<param name="args">A <see cref="T:_3GSn0w.iPhone3G.DeviceNotificationEventArgs"/> that contains the event data.</param>
+</member><member name="E:_3GSn0w.iPhone3G.iPhone.RecoveryModeEnter">
+	<summary>
+ The RecoveryModeEnter event is triggered when the attached iPhone enters Recovery Mode
+ </summary>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.OnRecoveryModeEnter(_3GSn0w.iPhone3G.DeviceNotificationEventArgs)">
+	<summary>
+ Raises the <see>RecoveryModeEnter</see> event.
+ </summary>
+	<param name="args">A <see cref="T:_3GSn0w.iPhone3G.DeviceNotificationEventArgs"/> that contains the event data.</param>
+</member><member name="E:_3GSn0w.iPhone3G.iPhone.RecoveryModeLeave">
+	<summary>
+ The RecoveryModeLeave event is triggered when the attached iPhone leaves Recovery Mode
+ </summary>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.OnRecoveryModeLeave(_3GSn0w.iPhone3G.DeviceNotificationEventArgs)">
+	<summary>
+ Raises the <see>RecoveryModeLeave</see> event.
+ </summary>
+	<param name="args">A <see cref="T:_3GSn0w.iPhone3G.DeviceNotificationEventArgs"/> that contains the event data.</param>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.GetFiles(System.String)">
+	<summary>
+ Returns the names of files in a specified directory
+ </summary>
+	<param name="path">The directory from which to retrieve the files.</param>
+	<returns>A <c>String</c> array of file names in the specified directory. Names are relative to the provided directory</returns>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.GetFileInfo(System.String,System.Int32@,System.Boolean@)">
+	<summary>
+ Returns the size and type of the specified file or directory.
+ </summary>
+	<param name="path">The file or directory for which to retrieve information.</param>
+	<param name="size">Returns the size of the specified file or directory</param>
+	<param name="directory">Returns <c>true</c> if the given path describes a directory, false if it is a file.</param>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.FileSize(System.String)">
+	<summary>
+ Returns the size of the specified file or directory.
+ </summary>
+	<param name="path">The file or directory for which to obtain the size.</param>
+	<returns></returns>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.CreateDirectory(System.String)">
+	<summary>
+ Creates the directory specified in path
+ </summary>
+	<param name="path">The directory path to create</param>
+	<returns>true if directory was created</returns>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.GetDirectories(System.String)">
+	<summary>
+ Gets the names of subdirectories in a specified directory.
+ </summary>
+	<param name="path">The path for which an array of subdirectory names is returned.</param>
+	<returns>An array of type <c>String</c> containing the names of subdirectories in <c>path</c>.</returns>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.Rename(System.String,System.String)">
+	<summary>
+ Moves a file or a directory and its contents to a new location or renames a file or directory if the old and new parent path matches.
+ </summary>
+	<param name="sourceName">The path of the file or directory to move or rename.</param>
+	<param name="destName">The path to the new location for <c>sourceName</c>.</param>
+	<remarks>Files cannot be removed across filesystem boundaries.</remarks>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.Copy(System.String,System.String)">
+	<summary>
+ FIXME
+ </summary>
+	<param name="sourceName"></param>
+	<param name="destName"></param>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.GetDirectoryRoot(System.String)">
+	<summary>
+ Returns the root information for the specified path. 
+ </summary>
+	<param name="path">The path of a file or directory.</param>
+	<returns>A string containing the root information for the specified path. </returns>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.Exists(System.String)">
+	<summary>
+ Determines whether the given path refers to an existing file or directory on the phone. 
+ </summary>
+	<param name="path">The path to test.</param>
+	<returns><c>true</c> if path refers to an existing file or directory, otherwise <c>false</c>.</returns>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.IsDirectory(System.String)">
+	<summary>
+ Determines whether the given path refers to an existing directory on the phone. 
+ </summary>
+	<param name="path">The path to test.</param>
+	<returns><c>true</c> if path refers to an existing directory, otherwise <c>false</c>.</returns>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.DeleteDirectory(System.String)">
+	<summary>
+ Deletes an empty directory from a specified path.
+ </summary>
+	<param name="path">The name of the empty directory to remove. This directory must be writable and empty.</param>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.DeleteDirectory(System.String,System.Boolean)">
+	<summary>
+ Deletes the specified directory and, if indicated, any subdirectories in the directory.
+ </summary>
+	<param name="path">The name of the directory to remove.</param>
+	<param name="recursive"><c>true</c> to remove directories, subdirectories, and files in path; otherwise, <c>false</c>. </param>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.DeleteFile(System.String)">
+	<summary>
+ Deletes the specified file.
+ </summary>
+	<param name="path">The name of the file to remove.</param>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.GetCurrentDirectory">
+	<summary>
+ Gets the current working directory of the object. 
+ </summary>
+	<returns>A <c>string</c> containing the path of the current working directory. </returns>
+</member><member name="M:_3GSn0w.iPhone3G.iPhone.SetCurrentDirectory(System.String)">
+	<summary>
+ Sets the application's current working directory to the specified directory.
+ </summary>
+	<param name="path">The path to which the current working directory should be set.</param>
+</member><member name="T:_3GSn0w.iPhone3G.iPhone">
+	<summary>
+ Exposes access to the Apple iPhone
+ </summary>
+</member><member name="F:_3GSn0w.iPhone3G.NotificationMessage.Connected">
+	<summary>The iPhone was connected to the computer.</summary>
+</member><member name="F:_3GSn0w.iPhone3G.NotificationMessage.Disconnected">
+	<summary>The iPhone was disconnected from the computer.</summary>
+</member><member name="F:_3GSn0w.iPhone3G.NotificationMessage.Unknown">
+	<summary>Notification from the iPhone occurred, but the type is unknown.</summary>
+</member><member name="T:_3GSn0w.iPhone3G.NotificationMessage">
+	<summary>
+ Provides the fields representing the type of notification
+ </summary>
+</member><member name="F:_3GSn0w.iPhone3G.AMDevice.serial">
+	<summary>Write Me</summary>
+</member><member name="T:_3GSn0w.iPhone3G.AMDevice">
+	<summary>
+ Structure describing the iPhone
+ </summary>
+</member><member name="P:_3GSn0w.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -19,6 +307,12 @@
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
+</member><member name="T:_3GSn0w.iPhone3G.ConnectEventHandler">
+	<summary>
+ Represents the method that will handle the <see>Connected</see> and <see>Disconnected</see> event.
+ </summary>
+	<param name="sender">The source of the event.</param>
+	<param name="args">A <see>ConnectEventArgs</see> that contains the data.</param>
 </member>
 </members>
 </doc>
